@@ -24,7 +24,7 @@ function App() {
   return (
     <div className="h-full flex flex-col items-center justify-center">
       <div className="pt-8 w-full flex flex-col items-center justify-center relative">
-        <div className="text-4xl z-10 pb-3">yRecombinator</div>
+        <a className="text-4xl z-10 pb-3" href="https://github.com/lucamattiazzi/yrecombinator" target="_blank">yRecombinator</a>
         <div className="text-xs text-center z-10">Combining two random startups from yCombinator.</div>
         <div className="text-xs text-center z-10 pb-3">For fun.</div>
         <div className="text-4xl text-center cursor-pointer z-10" onClick={getNewStartup}>🔄</div>
